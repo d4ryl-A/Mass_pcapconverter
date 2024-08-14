@@ -4,3 +4,6 @@ A simple python script that will convert multiple pcap and cap files to hash for
 
 ### Note
 You need to install **hcxtools** first https://www.kali.org/tools/hcxtools/
+
+Using hashcat
+hashcat -m 22000 hash.hc22000 wordlist.txt
